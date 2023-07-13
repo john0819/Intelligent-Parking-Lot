@@ -1,0 +1,5 @@
+192.168.80.129
+10086
+/root/Qt_Workspace/demo1/Image
+/root/Qt_Workspace/demo1/Video
+50

@@ -1,0 +1,196 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.83.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  BaseTask.cpp
+D:\text\thirdstage\thirdstage_Behind\BaseTask.cpp(11,15): warning : deleting array ‘((BaseTask*)this)->BaseTask::data’
+D:\text\thirdstage\thirdstage_Behind\BaseTask.cpp(11,15): warning :   delete this->data;
+D:\text\thirdstage\thirdstage_Behind\BaseTask.cpp(11,15): warning :                ^
+  Behindserver.cpp
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(31,45): warning : narrowing conversion of ‘semindex’ from ‘int’ to ‘short unsigned int’ inside { } [-Wnarrowing]
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(31,45): warning :   struct sembuf buf = { semindex,-1,SEM_UNDO };
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(31,45): warning :                                              ^
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(31,45): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(42,44): warning : narrowing conversion of ‘semindex’ from ‘int’ to ‘short unsigned int’ inside { } [-Wnarrowing]
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(42,44): warning :   struct sembuf buf = { semindex,1,SEM_UNDO };
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(42,44): warning :                                             ^
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(42,44): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(92,32): warning : suggest parentheses around assignment used as truth value [-Wparentheses]
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(92,32): warning :   if (shmid = -1 && shmid1 == -1)
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(92,32): warning :                                 ^
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(108,32): warning : suggest parentheses around assignment used as truth value [-Wparentheses]
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(108,32): warning :   if (msgid = -1 && msgid1 == -1)
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(108,32): warning :                                 ^
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(154,47): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(154,47): warning :   memcpy((void*)(shmaddr + (index * sizeof(int))), &arr[index], sizeof(int));
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(154,47): warning :                                                ^
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(156,37): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(156,37): warning :   memcpy((void*)(shmaddr + sizeof(arr) + (index * sizeof(buf))), &buf, sizeof(buf));
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(156,37): warning :                                      ^
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(156,61): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(156,61): warning :   memcpy((void*)(shmaddr + sizeof(arr) + (index * sizeof(buf))), &buf, sizeof(buf));
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(156,61): warning :                                                              ^
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(203,61): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(203,61): warning :    memcpy(&arr[index], (void*)(shmaddr + (index * sizeof(int))), sizeof(int));
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(203,61): warning :                                                              ^
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(207,45): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(207,45): warning :     memcpy(&buf, (void*)(shmaddr + sizeof(arr) + (index * sizeof(buf))), sizeof(buf));
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(207,45): warning :                                              ^
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(207,69): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(207,69): warning :     memcpy(&buf, (void*)(shmaddr + sizeof(arr) + (index * sizeof(buf))), sizeof(buf));
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(207,69): warning :                                                                      ^
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(212,39): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(212,39): warning :     memset((void*)(shmaddr + sizeof(arr) + (index * sizeof(buf))), 0, sizeof(buf));
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(212,39): warning :                                        ^
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(212,63): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(212,63): warning :     memset((void*)(shmaddr + sizeof(arr) + (index * sizeof(buf))), 0, sizeof(buf));
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(212,63): warning :                                                                ^
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(215,49): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(215,49): warning :     memcpy((void*)(shmaddr + (index * sizeof(int))), &arr1[index], sizeof(int));
+D:\text\thirdstage\thirdstage_Behind\Behindserver.cpp(215,49): warning :                                                  ^
+  Cccontroller.cpp
+  Cdatasqlite.cpp
+  ChildTask.cpp
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(64,27): warning : suggest parentheses around assignment used as truth value [-Wparentheses]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(64,27): warning :   while (dirp = readdir(dir))
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(64,27): warning :                            ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(795,28): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(795,28): warning :        feedback.businesslen = row * sizeof(inquire);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(795,28): warning :                             ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(855,28): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(855,28): warning :        feedback.businesslen = row * sizeof(inquire);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(855,28): warning :                             ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(910,33): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(910,33): warning :        videoinfo1[i].video_count = strtol((qres[j * col + 2]), NULL, 10);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(910,33): warning :                                  ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(911,31): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(911,31): warning :        videoinfo1[i].video_num = strtol((qres[j * col + 3]), NULL, 10);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(911,31): warning :                                ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(893,12): warning : unused variable ‘inquire’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(893,12): warning :     INQUIRE inquire[row];
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(893,12): warning :             ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(973,33): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(973,33): warning :        videoinfo1[i].video_count = strtol((qres[j * col + 2]), NULL, 10);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(973,33): warning :                                  ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(974,31): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(974,31): warning :        videoinfo1[i].video_num = strtol((qres[j * col + 3]), NULL, 10);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(974,31): warning :                                ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(956,12): warning : unused variable ‘inquire’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(956,12): warning :     INQUIRE inquire[row];
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(956,12): warning :             ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1033,28): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1033,28): warning :       videoinfo.video_count = strtol((qres[col + 2]), NULL, 10);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1033,28): warning :                             ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1034,26): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1034,26): warning :       videoinfo.video_num = strtol((qres[ col + 3]), NULL, 10);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1034,26): warning :                           ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1018,12): warning : unused variable ‘inquire’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1018,12): warning :     INQUIRE inquire[row];
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1018,12): warning :             ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1095,33): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1095,33): warning :        videoinfo1[i].video_count = strtol((qres[j * col + 2]), NULL, 10);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1095,33): warning :                                  ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1096,31): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1096,31): warning :        videoinfo1[i].video_num = strtol((qres[j * col + 3]), NULL, 10);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1096,31): warning :                                ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1078,12): warning : unused variable ‘inquire’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1078,12): warning :     INQUIRE inquire[row];
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1078,12): warning :             ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1158,33): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1158,33): warning :        videoinfo1[i].video_count = strtol((qres[j * col + 2]), NULL, 10);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1158,33): warning :                                  ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1159,31): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1159,31): warning :        videoinfo1[i].video_num = strtol((qres[j * col + 3]), NULL, 10);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1159,31): warning :                                ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1141,12): warning : unused variable ‘inquire’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1141,12): warning :     INQUIRE inquire[row];
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1141,12): warning :             ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1298,19): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1298,19): warning :        while ((res = read(wfd, buf, sizeof(buf))) != 0)
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1298,19): warning :                    ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1288,20): warning : unused variable ‘buffer’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1288,20): warning :       struct stat   buffer;
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1288,20): warning :                     ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1270,8): warning : unused variable ‘res’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1270,8): warning :     int res = 0;
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1270,8): warning :         ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1272,9): warning : unused variable ‘dir’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1272,9): warning :     DIR* dir = NULL;
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1272,9): warning :          ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1273,8): warning : unused variable ‘status’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1273,8): warning :     int status = 0;
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1273,8): warning :         ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1274,19): warning : unused variable ‘pdir’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1274,19): warning :     struct dirent* pdir = NULL;
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1274,19): warning :                    ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1275,8): warning : unused variable ‘count’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1275,8): warning :     int count = 0;
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1275,8): warning :         ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1241,7): warning : unused variable ‘res’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1241,7): warning :    int res = 0;
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1241,7): warning :        ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1442,24): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1442,24): warning :        carout1[i].money = strtol((qres[j * col + 6]), NULL, 10);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1442,24): warning :                         ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1443,23): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1443,23): warning :        carout1[i].type = strtol((qres[j * col + 7]), NULL, 10);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1443,23): warning :                        ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1419,12): warning : unused variable ‘inquire’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1419,12): warning :     INQUIRE inquire[row];
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1419,12): warning :             ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1559,24): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1559,24): warning :        carout1[i].money = strtol((qres[j * col + 6]), NULL, 10);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1559,24): warning :                         ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1560,23): warning : conversion to ‘int’ from ‘long int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1560,23): warning :        carout1[i].type = strtol((qres[j * col + 7]), NULL, 10);
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1560,23): warning :                        ^
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1536,12): warning : unused variable ‘inquire’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1536,12): warning :     INQUIRE inquire[row];
+D:\text\thirdstage\thirdstage_Behind\ChildTask.cpp(1536,12): warning :             ^
+  main.cpp
+D:\text\thirdstage\thirdstage_Behind\main.cpp(14,8): warning : unused variable ‘login’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\main.cpp(14,8): warning :   LOGIN login;
+D:\text\thirdstage\thirdstage_Behind\main.cpp(14,8): warning :         ^
+D:\text\thirdstage\thirdstage_Behind\main.cpp(15,11): warning : unused variable ‘errol’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\main.cpp(15,11): warning :   REGISTER errol;
+D:\text\thirdstage\thirdstage_Behind\main.cpp(15,11): warning :            ^
+D:\text\thirdstage\thirdstage_Behind\main.cpp(16,8): warning : unused variable ‘carin’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\main.cpp(16,8): warning :   CARIN carin;
+D:\text\thirdstage\thirdstage_Behind\main.cpp(16,8): warning :         ^
+D:\text\thirdstage\thirdstage_Behind\main.cpp(17,9): warning : unused variable ‘newcar’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\main.cpp(17,9): warning :   UPDATE newcar;
+D:\text\thirdstage\thirdstage_Behind\main.cpp(17,9): warning :          ^
+D:\text\thirdstage\thirdstage_Behind\main.cpp(18,7): warning : unused variable ‘load’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\main.cpp(18,7): warning :   LOAD load;
+D:\text\thirdstage\thirdstage_Behind\main.cpp(18,7): warning :        ^
+D:\text\thirdstage\thirdstage_Behind\main.cpp(19,9): warning : unused variable ‘carout’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\main.cpp(19,9): warning :   CAROUT carout;
+D:\text\thirdstage\thirdstage_Behind\main.cpp(19,9): warning :          ^
+D:\text\thirdstage\thirdstage_Behind\main.cpp(20,12): warning : unused variable ‘videoinfo’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\main.cpp(20,12): warning :   VIDEOINFO videoinfo;
+D:\text\thirdstage\thirdstage_Behind\main.cpp(20,12): warning :             ^
+D:\text\thirdstage\thirdstage_Behind\main.cpp(21,10): warning : unused variable ‘inquire’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\main.cpp(21,10): warning :   INQUIRE inquire;
+D:\text\thirdstage\thirdstage_Behind\main.cpp(21,10): warning :           ^
+D:\text\thirdstage\thirdstage_Behind\main.cpp(22,10): warning : unused variable ‘picture’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\main.cpp(22,10): warning :   PICTURE picture;
+D:\text\thirdstage\thirdstage_Behind\main.cpp(22,10): warning :           ^
+D:\text\thirdstage\thirdstage_Behind\main.cpp(23,11): warning : unused variable ‘querycar’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Behind\main.cpp(23,11): warning :   QUERYCAR querycar;
+D:\text\thirdstage\thirdstage_Behind\main.cpp(23,11): warning :            ^
+  Mode.cpp
+D:\text\thirdstage\thirdstage_Behind\Mode.cpp(184,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\text\thirdstage\thirdstage_Behind\Mode.cpp(184,1): warning :  }
+D:\text\thirdstage\thirdstage_Behind\Mode.cpp(184,1): warning :  ^
+D:\text\thirdstage\thirdstage_Behind\Mode.cpp(319,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\text\thirdstage\thirdstage_Behind\Mode.cpp(319,1): warning :  }
+D:\text\thirdstage\thirdstage_Behind\Mode.cpp(319,1): warning :  ^
+  ThreadPool.cpp
+D:\text\thirdstage\thirdstage_Behind\ThreadPool.cpp(21,59): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\text\thirdstage\thirdstage_Behind\ThreadPool.cpp(21,59): warning :   if (this->taskQueue.size() == 0 && this->idleList.size() == this->threadMinNum)
+D:\text\thirdstage\thirdstage_Behind\ThreadPool.cpp(21,59): warning :                                                            ^
+  正在链接对象
+  thirdstage_Behind.vcxproj -> D:\text\thirdstage\thirdstage_Behind\bin\x64\Debug\thirdstage_Behind.out

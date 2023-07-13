@@ -1,0 +1,89 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.83.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  BaseTask.cpp
+D:\text\thirdstage\thirdstage_Front\BaseTask.cpp(11,15): warning : deleting array ‘((BaseTask*)this)->BaseTask::data’
+D:\text\thirdstage\thirdstage_Front\BaseTask.cpp(11,15): warning :   delete this->data;
+D:\text\thirdstage\thirdstage_Front\BaseTask.cpp(11,15): warning :                ^
+  CBaseSocket.cpp
+  CEpollServer.cpp
+D:\text\thirdstage\thirdstage_Front\CEpollServer.h(12,14): warning : extra tokens at end of #include directive
+D:\text\thirdstage\thirdstage_Front\CEpollServer.h(12,14): warning :  #include<map>;
+D:\text\thirdstage\thirdstage_Front\CEpollServer.h(12,14): warning :               ^
+D:\text\thirdstage\thirdstage_Front\CEpollServer.cpp(43,32): warning : left operand of comma operator has no effect [-Wunused-value]
+D:\text\thirdstage\thirdstage_Front\CEpollServer.cpp(43,32): warning :   bzero(this->buf, sizeof(this, buf));
+D:\text\thirdstage\thirdstage_Front\CEpollServer.cpp(43,32): warning :                                 ^
+D:\text\thirdstage\thirdstage_Front\CEpollServer.cpp(44,33): warning : left operand of comma operator has no effect [-Wunused-value]
+D:\text\thirdstage\thirdstage_Front\CEpollServer.cpp(44,33): warning :   bzero(this->buf1, sizeof(this, buf1));
+D:\text\thirdstage\thirdstage_Front\CEpollServer.cpp(44,33): warning :                                  ^
+D:\text\thirdstage\thirdstage_Front\CEpollServer.cpp(92,76): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Front\CEpollServer.cpp(92,76): warning :      int res = read(epollEventArray[i].data.fd, this->buf, sizeof(this->buf));
+D:\text\thirdstage\thirdstage_Front\CEpollServer.cpp(92,76): warning :                                                                             ^
+  ChildTask.cpp
+D:\text\thirdstage\thirdstage_Front\ChildTask.cpp(192,54): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Front\ChildTask.cpp(192,54): warning :      int len = (feedback.businesslen) / sizeof(inquire);
+D:\text\thirdstage\thirdstage_Front\ChildTask.cpp(192,54): warning :                                                       ^
+D:\text\thirdstage\thirdstage_Front\ChildTask.cpp(210,54): warning : conversion to ‘int’ from ‘long unsigned int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Front\ChildTask.cpp(210,54): warning :      int len = (feedback.businesslen) / sizeof(inquire);
+D:\text\thirdstage\thirdstage_Front\ChildTask.cpp(210,54): warning :                                                       ^
+D:\text\thirdstage\thirdstage_Front\ChildTask.cpp(17,8): warning : unused variable ‘login’ [-Wunused-variable]
+D:\text\thirdstage\thirdstage_Front\ChildTask.cpp(17,8): warning :   LOGIN login;
+D:\text\thirdstage\thirdstage_Front\ChildTask.cpp(17,8): warning :         ^
+  CHostAddress.cpp
+  CTcpServer.cpp
+  Frontserver.cpp
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(31,45): warning : narrowing conversion of ‘semindex’ from ‘int’ to ‘short unsigned int’ inside { } [-Wnarrowing]
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(31,45): warning :   struct sembuf buf = { semindex,-1,SEM_UNDO };
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(31,45): warning :                                              ^
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(31,45): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(42,44): warning : narrowing conversion of ‘semindex’ from ‘int’ to ‘short unsigned int’ inside { } [-Wnarrowing]
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(42,44): warning :   struct sembuf buf = { semindex,1,SEM_UNDO };
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(42,44): warning :                                             ^
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(42,44): warning : conversion to ‘short unsigned int’ from ‘int’ may alter its value [-Wconversion]
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(95,32): warning : suggest parentheses around assignment used as truth value [-Wparentheses]
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(95,32): warning :   if (shmid = -1 && shmid1 == -1)
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(95,32): warning :                                 ^
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(112,32): warning : suggest parentheses around assignment used as truth value [-Wparentheses]
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(112,32): warning :   if (msgid = -1 && msgid1 == -1)
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(112,32): warning :                                 ^
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(160,47): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(160,47): warning :   memcpy((void*)(shmaddr + (index * sizeof(int))), &arr[index], sizeof(int));
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(160,47): warning :                                                ^
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(162,37): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(162,37): warning :   memcpy((void*)(shmaddr + sizeof(arr) + (index * sizeof(buf))), &buf, sizeof(buf));
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(162,37): warning :                                      ^
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(162,61): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(162,61): warning :   memcpy((void*)(shmaddr + sizeof(arr) + (index * sizeof(buf))), &buf, sizeof(buf));
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(162,61): warning :                                                              ^
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(201,62): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(201,62): warning :    memcpy(&arr1[index], (void*)(shmaddr + (index * sizeof(int))), sizeof(int));
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(201,62): warning :                                                               ^
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(205,45): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(205,45): warning :     memcpy(&buf, (void*)(shmaddr + sizeof(arr) + (index * sizeof(buf))), sizeof(buf));
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(205,45): warning :                                              ^
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(205,69): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(205,69): warning :     memcpy(&buf, (void*)(shmaddr + sizeof(arr) + (index * sizeof(buf))), sizeof(buf));
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(205,69): warning :                                                                      ^
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(208,39): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(208,39): warning :     memset((void*)(shmaddr + sizeof(arr) + (index * sizeof(buf))), 0, sizeof(buf));
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(208,39): warning :                                        ^
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(208,63): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(208,63): warning :     memset((void*)(shmaddr + sizeof(arr) + (index * sizeof(buf))), 0, sizeof(buf));
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(208,63): warning :                                                                ^
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(211,49): warning : pointer of type ‘void *’ used in arithmetic [-Wpointer-arith]
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(211,49): warning :     memcpy((void*)(shmaddr + (index * sizeof(int))), &arr1[index], sizeof(int));
+D:\text\thirdstage\thirdstage_Front\Frontserver.cpp(211,49): warning :                                                  ^
+  main.cpp
+D:\text\thirdstage\thirdstage_Front\CEpollServer.h(12,14): warning : extra tokens at end of #include directive
+D:\text\thirdstage\thirdstage_Front\CEpollServer.h(12,14): warning :  #include<map>;
+D:\text\thirdstage\thirdstage_Front\CEpollServer.h(12,14): warning :               ^
+  ThreadPool.cpp
+D:\text\thirdstage\thirdstage_Front\ThreadPool.cpp(21,59): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\text\thirdstage\thirdstage_Front\ThreadPool.cpp(21,59): warning :   if (this->taskQueue.size() == 0 && this->idleList.size() == this->threadMinNum)
+D:\text\thirdstage\thirdstage_Front\ThreadPool.cpp(21,59): warning :                                                            ^
+  正在链接对象
+  thirdstage_Front.vcxproj -> D:\text\thirdstage\thirdstage_Front\bin\x64\Debug\thirdstage_Front.out
